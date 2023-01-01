@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "p2p_torrent",
+  "version": "1.0.0",
+  "description": "This example creates a simple chat app in your terminal.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^10.2.0",
+    "@libp2p/mplex": "^7.1.1",
+    "@libp2p/tcp": "^6.0.8",
+    "@libp2p/websockets": "^5.0.2",
+    "@nodeutils/defaults-deep": "^1.1.0",
+    "it-length-prefixed": "^8.0.4",
+    "it-map": "^2.0.0",
+    "it-pipe": "^2.0.5",
+    "libp2p": "^0.41.0",
+    "multiformats": "^10.0.3",
+    "uint8arrays": "^4.0.2"
+  }
+}
